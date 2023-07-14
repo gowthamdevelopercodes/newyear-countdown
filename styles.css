@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@400;500&family=Quicksand:wght@500&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: url('./img/technology.jpg') no-repeat center fixed;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    height: 100vh;
+    /* background-position: center; */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+}
+
+
+
+h1 {
+    font-size: 60px;
+}
+
+.countdown {
+    transform: scale(2);
+    /* display: flex; */
+    display: none;
+
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.time h2 {
+    margin: 0 0 15px;
+}
+
+.year {
+    font-size: 150px;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0px;
+}
